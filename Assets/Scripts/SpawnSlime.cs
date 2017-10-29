@@ -15,8 +15,10 @@ public class SpawnSlime : MonoBehaviour {
     public GameObject yellowSlime;
 
     GameObject chosenSlime;
+    float counter;
 
     void Start () {
+        counter = 30;
         StartCoroutine(RePositionWithDelay());
     }
 
@@ -31,7 +33,7 @@ public class SpawnSlime : MonoBehaviour {
         orientacion *= Quaternion.Euler(0, -90, 0); 
         transform.rotation = orientacion;
 
-        while (true)
+        while (counter > 0)
         {
             //Elegir posición aleatoria
             //SetRandomPosition();
@@ -45,6 +47,7 @@ public class SpawnSlime : MonoBehaviour {
 
             yield return new WaitForSeconds(0.3f);
         }
+
     }
 
     void SetRandomPosition()
@@ -104,6 +107,12 @@ public class SpawnSlime : MonoBehaviour {
         }
     }
 
+    private void Update()
+    {
+       counter -= Time.deltaTime;
 
-    
+       //guiText.text = "" + Timer;
+        
+    }
+
 }

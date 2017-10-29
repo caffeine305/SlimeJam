@@ -18,14 +18,14 @@ public class ScoreMan : MonoBehaviour {
 
     public void SumarScore(int sumarValorScore)
     {
-        score += sumarValorScore;
-        UpdateScore();
+            score += sumarValorScore;
+            UpdateScore();       
     }
 
     void UpdateScore()
     {
-        scoreText.GetComponent<TextMesh>().text = "Score:" + score;
-        Debug.Log(score);
+            scoreText.GetComponent<TextMesh>().text = "Score:" + score;
+            Debug.Log(score);
     }
 
     public void UpdateEliminados(int sumarNumEliminados)

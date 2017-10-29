@@ -84,9 +84,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Blink.cs" />
     <Compile Include="Assets\Scripts\ScoreMan.cs" />
     <Compile Include="Assets\Scripts\SlimeBehaviour.cs" />
     <Compile Include="Assets\Scripts\SpawnSlime.cs" />
+    <Compile Include="Assets\Scripts\StartGame.cs" />
     <Compile Include="Assets\Scripts\killWhenTouched.cs" />
     <Compile Include="Assets\Scripts\onDestroyCount.cs" />
   </ItemGroup>

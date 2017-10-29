@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 990eebb25fdb7c146aee6d94cd301826
+timeCreated: 1509253730
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Slimeball
+  fontNames:
+  - Slimeball
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
